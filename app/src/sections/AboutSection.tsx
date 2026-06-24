@@ -2,11 +2,6 @@ import FadeIn from "@/components/FadeIn";
 import AnimatedText from "@/components/AnimatedText";
 
 export default function AboutSection() {
-  const scrollTo = (href: string) => {
-    const el = document.querySelector(href);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section
       id="about"
